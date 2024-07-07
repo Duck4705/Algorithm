@@ -1,7 +1,7 @@
 # Thuật toán truy hồi
-  Đây là bài toán tìm chữ số cuối khác 0 của n! 
-  chữ số cuối khác 0 của n < 10 
-\\
+Đây là bài toán tìm chữ số cuối khác 0 của n!  
+chữ số cuối khác 0 của n < 10   
+  
 D(0) = 1, D(1) = 1, D(2) = 2, D(3) = 6, D(4) = 4, D(5) = 2,\\ 
 D(6) = 2, D(7) = 4, D(8) = 2, D(9) = 8.\\
 \\
