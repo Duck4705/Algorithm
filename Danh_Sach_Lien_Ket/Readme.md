@@ -30,4 +30,11 @@ int main()
 ```
 So sánh mảng và danh sách liên kết:  
 ![So_Sanh](So_Sanh.png)  
+Cơ chế hoạt động:  
+1. Phép gán(=)
+![Phep_Gan](Phep_Gan.png)  
+2. Chaining .next:
+![Chaining.next](Chaining.next.png)  
+3. Traversal:
+![Traversal](Traversal.png)  
 
