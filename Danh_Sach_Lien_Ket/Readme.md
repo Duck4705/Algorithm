@@ -2,7 +2,7 @@
 ***
 1. Tạo danh sách liên kết  
 Danh sách liên kết đơn:  
-'''
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -27,4 +27,4 @@ int main()
     cout << head->next->value << endl; // 200
     cout << head->next->next->value << endl; // 300
 }
-'''
+```
