@@ -55,7 +55,53 @@ void addNode(ListNode* prevNode, ListNode* nodeToAdd)
     nodeToAdd->next = prevNode->next;
     prevNode->next = nodeToAdd;
 }
+```  
+Danh sách liên kết đôi:  
+![Doi](Danh_Sach_Lien_Ket_Doi.png)  
+- Hàm thêm một nút ở danh sách liên kết đôi  
+```ccp
+struct ListNode
+{
+    int value;
+    ListNode* next;
+    ListNode* prev;
+    ListNode(int val) : value(val), next(nullptr), prev(nullptr) {}
+};
+
+void addNode(ListNode* nextNode, ListNode* nodeToAdd)
+{
+    ListNode* prevNode = nextNode->prev;
+    nodeToAdd->next = nextNode;
+    nodeToAdd->prev = prevNode;
+    prevNode->next = nodeToAdd;
+    nextNode->prev = nodeToAdd;
+}
 ```
-   
+- Hàm xóa một nút ở danh sách liên kết đôi
+```ccp
+struct ListNode
+{
+    int value;
+    ListNode* next;
+    ListNode* prev;
+    ListNode(int val) : value(val), next(nullptr), prev(nullptr) {}
+};
+
+void deleteNode(ListNode* node)
+{
+    ListNode* prevNode = node->prev;
+    ListNode* nextNode = node->next;
+    prevNode->next = nextNode;
+    nextNode->prev = prevNode;
+}
+```  
+
+
+
+
+
+
+
+
 
 
