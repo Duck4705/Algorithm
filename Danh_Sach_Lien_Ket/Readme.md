@@ -28,3 +28,6 @@ int main()
     cout << head->next->next->value << endl; // 300
 }
 ```
+So sánh mảng và danh sách liên kết:  
+![So_Sanh](So_Sanh.png)  
+
