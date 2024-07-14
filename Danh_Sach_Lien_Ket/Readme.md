@@ -36,5 +36,25 @@ Cơ chế hoạt động:
 2. Chaining .next:
 ![Chaining.next](Chaining.next.png)  
 3. Traversal:
-![Traversal](Traversal.png)  
+![Traversal](Traversal.png)
+2. Các loại sách liên kết
+Danh sách liên kết đơn:
+![Don](Danh_Sach_Lien_Ket_Don.png)
+- Hàm Thêm một nút ở danh sách liên kết đơn
+```ccp
+struct ListNode
+{
+    int value;
+    ListNode* next;
+    ListNode(int val) : value(val), next(nullptr) {}
+};
+
+void addNode(ListNode* prevNode, ListNode* nodeToAdd)
+{
+    nodeToAdd->next = prevNode->next;
+    prevNode->next = nodeToAdd;
+}
+```
+   
+
 
