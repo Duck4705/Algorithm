@@ -1,6 +1,6 @@
 # Danh sách liên kết  
 ***
-Tạo danh sách liên kết  
+Phần 1: Tạo danh sách liên kết  
 Danh sách liên kết đơn:  
 ```cpp
 #include <iostream>
@@ -38,7 +38,7 @@ Cơ chế hoạt động:
 3. Traversal:
 ![Traversal](Traversal.png)  
 
-Các loại sách liên kết
+Phần 2: Các loại sách liên kết  
 Danh sách liên kết đơn:
 ![Don](Danh_Sach_Lien_Ket_Don.png)
 - Hàm Thêm một nút ở danh sách liên kết đơn
